@@ -2,8 +2,8 @@ import edit_distance
 import os
 from tqdm import tqdm
 
-ref_f = "/home/b07502072/u-speech2speech/s2p/utils/asr_test.phones.txt"
-hyp_f = "/home/b07502072/u-speech2speech/s2p/multirun/2022-04-09/14-52-16/0/asr_test/asr_test.txt"
+ref_f = "/home/yukuanfu88/iven/wav2vecu-s2p/s2p/utils/asr_test.phones.txt"
+hyp_f = "/home/yukuanfu88/iven/wav2vecu-s2p/s2p/multirun/2023-03-07/00-26-29/0/asr_test/asr_test.txt"
 
 def read_phn_file(file_path):
     data = []

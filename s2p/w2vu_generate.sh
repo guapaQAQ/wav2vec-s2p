@@ -1,7 +1,7 @@
 export HYDRA_FULL_ERROR=1
-TASK_DATA=/work/b07502072/corpus/u-s2p/audio/large_clean/precompute_pca512_cls128_mean_pooled
-TEXT_DATA=/work/b07502072/corpus/u-s2p/text/wiki_3/phones
-SAVE_DIR=/w2vu/wav2vecu-s2p/s2p/multirun/2022-10-19/15-14-46/0
+TASK_DATA=/work/yukuanfu88/uasr_wav2vec/u-s2p/audio/large_clean/precompute_pca512_cls128_mean_pooled
+TEXT_DATA=/work/yukuanfu88/uasr_wav2vec/u-s2p/text/voxpopuli_trans/phones
+SAVE_DIR=/home/yukuanfu88/iven/wav2vecu-s2p/s2p/multirun/2023-03-07/00-26-29/0
 
 cp $TEXT_DATA/* $TASK_DATA
 env PYTHONPATH=$FAIRSEQ_ROOT python w2vu_generate.py --config-dir config/generate --config-name viterbi \

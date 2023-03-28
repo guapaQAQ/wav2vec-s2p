@@ -1,7 +1,7 @@
 PREFIX=w2v_unsup_gan_xp
-TASK_DATA=/work/b07502072/corpus/u-s2p/audio/large_clean/precompute_pca512_cls128_mean_pooled
-TEXT_DATA=/work/b07502072/corpus/u-s2p/text/wiki_3/phones
-KENLM_PATH=/work/b07502072/corpus/u-s2p/text/wiki_3/phones/lm.phones.filtered.04.bin
+TASK_DATA=/work/yukuanfu88/uasr_wav2vec/u-s2p/audio/large_clean/precompute_pca512_cls128_mean_pooled
+TEXT_DATA=/work/yukuanfu88/uasr_wav2vec/u-s2p/text/voxpopuli_trans/phones
+KENLM_PATH=/work/yukuanfu88/uasr_wav2vec/u-s2p/text/voxpopuli_trans/phones/lm.phones.filtered.06.bin
 export HYDRA_FULL_ERROR=1
 
 PYTHONPATH=$FAIRSEQ_ROOT PREFIX=$PREFIX fairseq-hydra-train \

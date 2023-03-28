@@ -45,4 +45,5 @@ dependencies:
   - wheel=0.37.1=pyhd8ed1ab_0
   - xz=5.2.5=h516909a_1
   - zlib=1.2.11=h36c2ea0_1013
+  - tensorboard=2.11.2
 prefix: /home/b07502072/.conda/envs/u-s2s
